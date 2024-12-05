@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link rel="shortcut icon" type="image" href="./picture/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+</head>
+<body>
+
+    <!-- top navbar -->
+    <div class="top-navbar">
+        <div class="top-icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="other-links">
+            <button id="btn-login"><a href="login.html">Login</a></button>
+            <button id="btn-signup"><a href="signup.html">Sign up</a></button>
+
+            <i class="fa-solid fa-user"></i>
+            <a href="shopping-card.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </div>
+
+    <!-- top navbar -->
+
+    <div class="home-section">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html" target="_blank">
+                <img class="navbar-brand-img" src="./picture/logo 2.jpg" alt="" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="jersey.html">Jersey</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="jersey.html">Soprts Shoes</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1c50;">
+                      <li><a class="dropdown-item" href="football.html">Football</a></li>
+                      <li><a class="dropdown-item" href="cricket.html">Cricket</a></li>
+                      <li><a class="dropdown-item" href="#">Badminton</a></li>
+                      <li><a class="dropdown-item" href="#">Tennis</a></li>
+                      <li><a class="dropdown-item" href="#">Basketball</a></li>
+                      <li><a class="dropdown-item" href="#">Golf</a></li>
+                      <li><a class="dropdown-item" href="#">Pool</a></li>
+                      <li><a class="dropdown-item" href="#">Carrom</a></li>
+                      <li><a class="dropdown-item" href="#">Hockey</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+               
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar -->
+
+    
+
+    <!-- banner -->
+    <div class="banner3">
+        <div class="content3">
+            <h1>Get More Product</h1>
+            <p>Buy before it runs out. Offer is for a limited time.</p>
+            <div id="bannerbtn3"><button>SHOP NOW</button></div>
+        </div>
+    </div>
+    <!-- banner -->
+
+    <!-- product cards -->
+    <div class="container" id="product-cards">
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/football.jpg" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Football Shoe</h3>
+                        <p>Addidas</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/football puma.jpg" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Football Shoe</h3>
+                        <p>Puma</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/football ni.png" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Football Shoe</h3>
+                        <p>Nike</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/cric.jpg" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Cricket Shoe</h3>
+                        <p>Drifter</p> 
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/cric 2.webp" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Cricket Shoe</h3>
+                        <p>Kookaburra</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/badminton.webp" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Badminton Shoe</h3>
+                        <p>Li-Ning</p> 
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/Basketball.jpg" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Basketball Shoe</h3>
+                        <p>24</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/hockey.jpg" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Hockey Shoe</h3>
+                        <p>Addidas</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/ragby.jpg" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Ragby Shoe</h3>
+                        <p>Addidas</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/rugby 2.jpg" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Ragby Shoe</h3>
+                        <p>Addidas</p> 
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/tenis.jpg" alt="" height="260px" width="auto">
+                    <div class="card-body">
+                        <h3>Tenis Shoe</h3>
+                        <p>QC</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="./shoes/pic 10.jpg" alt="" height="298px" width="auto">
+                    <div class="card-body">
+                        <h3>Badminton Shoe</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>৳ 15,ooo <strike>৳ 18,000</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product cards -->
+
+
+    <!-- product -->
+    <div class="container" style="margin-top: 100px;">
+    <hr>
+</div>
+<div class="container">
+    <h3 style="font-weight: bold;">PRODUCT.</h3>
+    <p class="container-p">Welcome to Sports Gallery, your ultimate destination for premium quality football jerseys in Bangladesh. Established with a passion for sports and a commitment to excellence, we strive to bring you the best in sports equipment, ensuring you look and feel like a champion on and off the field. <br> <br>
+    At Sports Gallery, we believe that every fan deserves to wear their team’s colors with pride. That’s why we offer a wide range of authentic and high-quality jerseys from your favorite teams around the world. Whether you’re a die-hard supporter of local clubs or international giants, we’ve got you covered. <br> <br>
+    Sports Gallery is an online destination committed to providing high-quality products and an exceptional shopping experience for our customers. Established 2015, we have been dedicated to offering a wide range of sports equipment to meet various needs and preferences.
+    </p>
+    <hr>
+</div>
+    <!-- product -->
+
+
+<!-- offer -->
+    <div class="container" id="offer">
+        <div class="row">
+            <div class="col-md-4 py-3 ps-5 py-md-0">
+                <a href="shopping-card.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <h5>Free Shipping</h5>
+                <p>On order over ৳15,000</p>
+            </div>
+            <div class="col-md-4 py-3 ps-5 py-md-0">
+                <a href=""><i class="fa-solid fa-truck"></i></a>
+                <h5>Fast Delivery</h5>
+                <p>All Over Bangladesh</p>
+            </div>
+            <div class="col-md-4 py-3 ps-5 py-md-0">
+                <a href=""><i class="fa-solid fa-thumbs-up"></i></a>
+                <h5>Big Choice</h5>
+                <p>MY product</p>
+            </div>
+        </div>
+    </div>
+<!-- offer -->
+
+
+
+
+
+
+<!-- footer -->
+<footer id="footer" style="margin-top: 50px;">
+<div class="footer-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 footer-content">
+                <h3>Football Gallery</h3>
+                <p>We always provide genuine products. Our product quality is very good.</p>
+                <p>
+                    Kornokathi <br>
+                    Barishal Sadar <br>
+                    Barishal <br>
+                </p>
+                <strong><i class="fas fa-phone"></i> Phone: <strong>+8801795567804</strong></strong><br>
+                <strong><i class="fa-solid fa-envelope"></i> Email: <strong>iot.lab8110@gmail.com</strong></strong>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Usefull Links</h4>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Privacy policay</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <p>We always provide genuine products. Our product quality is very good.</p>
+                <ul>
+                    <li><a href="#">jersey</a></li>
+                    <li><a href="#">Sports Shoes</a></li>
+                    <li><a href="#">All Sports Equipment</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Social Network</h4>
+                <p>Our team is alawys ready to service you anytime.</p>
+                <div class="socail-links mt-3">
+                    <a href="#" class="twiiter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="twiiter"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="twiiter"><i class="fa-brands fa-google-plus"></i></a>
+                    <a href="#" class="twiiter"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="twiiter"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container py-4">
+    <div class="copyright">
+        &copy; Copyright <strong>Sports Gallery</strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+        Designed By <a href="#">MH Coding</a>
+    </div>
+</div>
+</footer>
+<!-- footer -->
+
+<a href="#" class="arrow"><i><img src="./picture/up-arrow.png" alt="" width="50px"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
